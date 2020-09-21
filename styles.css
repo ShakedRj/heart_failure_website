@@ -1,0 +1,132 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0px;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+  }
+  
+  .left-side {
+    display: flex;
+  }
+  
+  .nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+  
+  .nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+  }
+  
+  .active-nav-link {
+    border-bottom: 1px solid black;
+  }
+  
+  .active-nav-link a {
+    color: black !important;
+  }
+  
+  .nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  
+  .nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+  }
+  
+  .nav-link-wrapper a:hover {
+    color: black;
+  }
+  .center{
+    text-align: center;
+  }
+
+  .contact-wrapper{
+    margin-left: 250px;
+  }
+  
+  .intro h2{
+    color: lightseagreen;
+}
+.intro{
+  font-size: large;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+}
+.dashboard-header{
+  text-align: center;
+  color: lightseagreen;
+  left: 80px;
+}
+.dashboard h1{
+  color: lightseagreen;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+}
+
+.mlintro h1{
+  color: lightseagreen;
+  font-weight: bold;
+}
+.mlintro{
+  position: absolute;
+  line-height: 30px;
+  font-size: larger;
+  text-align: center;
+  font-weight: bold;
+  top: 200px;
+  padding-left: 150px;
+}
+
+.cluster h2{
+  color: lightseagreen;
+  font-weight: bold;
+}
+.cluster{
+  padding-left: 40px;
+}
+
+.mlpic{
+  opacity: 0.4;
+}
+
+.supervised h2{
+  color: lightseagreen;
+  font-weight: bold;
+}
+.supervised{
+ 
+  padding-left: 40px;
+}
+.conclusion{
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+}
+.conclusion h1{
+  color: lightseagreen;
+  font-weight: bold;
+}
+.map{
+  text-align:center;
+}
+.map h2{
+  color: lightseagreen;
+  font-weight: bold;
+}
