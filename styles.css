@@ -58,6 +58,12 @@ body {
   .contact-wrapper{
     margin-left: 250px;
   }
+  .intro-index{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    line-height: 30px;
+  }
   
   .intro h2{
     color: lightseagreen;
