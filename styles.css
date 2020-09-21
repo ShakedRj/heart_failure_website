@@ -61,23 +61,36 @@ body {
   
   .intro h2{
     color: lightseagreen;
+    font-weight: bold;
 }
 .intro{
-  font-size: large;
-  font-weight: bold;
+  font-size: larger;
+  padding-left: 40px;
   line-height: 30px;
-  text-align: center;
 }
 .dashboard-header{
   text-align: center;
   color: lightseagreen;
   left: 80px;
-}
-.dashboard h1{
-  color: lightseagreen;
   font-weight: bold;
   line-height: 30px;
-  text-align: center;
+  font-size: larger;
+}
+.insights h1{
+  color: lightseagreen;
+}
+.insights{
+  font-size: large;
+  padding-left: 40px;
+  line-height: 30px;
+}
+.map{
+  text-align:center;
+  font-size: larger;
+}
+.map h2{
+  color: lightseagreen;
+  font-weight: bold;
 }
 
 .mlintro h1{
@@ -100,6 +113,7 @@ body {
 }
 .cluster{
   padding-left: 40px;
+  font-size: larger;
 }
 
 .mlpic{
@@ -111,22 +125,6 @@ body {
   font-weight: bold;
 }
 .supervised{
- 
   padding-left: 40px;
-}
-.conclusion{
-  font-weight: bold;
-  line-height: 30px;
-  text-align: center;
-}
-.conclusion h1{
-  color: lightseagreen;
-  font-weight: bold;
-}
-.map{
-  text-align:center;
-}
-.map h2{
-  color: lightseagreen;
-  font-weight: bold;
+  font-size: larger;
 }
