@@ -109,7 +109,6 @@ body {
   font-size: larger;
   text-align: center;
   font-weight: bold;
-  top: 200px;
   padding-left: 150px;
 }
 
@@ -120,12 +119,8 @@ body {
 .cluster{
   padding-left: 40px;
   font-size: larger;
+  padding-top: 560px;
 }
-
-.mlpic{
-  opacity: 0.4;
-}
-
 .supervised h2{
   color: lightseagreen;
   font-weight: bold;
