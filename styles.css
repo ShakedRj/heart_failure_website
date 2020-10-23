@@ -60,10 +60,19 @@ body {
   }
   .intro-index{
     text-align: center;
-    font-weight: bold;
     font-size: larger;
-    line-height: 30px;
+    line-height: 40px;
+    padding-top: 160px;
   }
+  .header{
+    position: absolute;
+    top: 170px;
+    left:540px;
+    color: lightseagreen;
+    font-weight: bold;
+    font-size: 30px;
+   }
+  
   
   .intro h2{
     color: lightseagreen;
@@ -128,8 +137,4 @@ body {
 .supervised{
   padding-left: 40px;
   font-size: larger;
-}
-.img{
-  padding-top: 60px;
-  padding-left: 355px;
 }
